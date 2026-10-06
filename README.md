@@ -1,30 +1,31 @@
 # Delhi Sweets - Sales Analysis Dashboard | Power BI
 
-End-to-end Business Analytics project built for retail sales insights.
+End-to-end Business Analytics project showcasing ETL, Data Modeling, and Dashboarding skills.
 
-## Problem Statement
-Analyze sales data of a sweets retail store to find profit, top products, and sales trends.
+## 📊 Project Overview
+Analyzed retail sales data for "Delhi Sweets" to uncover business insights, sales trends, and profitability. Built a complete pipeline from raw CSV to interactive dashboard.
 
-## Tech Stack
-- **ETL:** Power Query, Python (Pandas)
-- **Database:** CSV -> Data Model (Star Schema)
-- **Visualization:** Power BI (DAX Measures, KPIs)
-- **Skills:** Data Cleaning, Dimensional Modeling, Dashboarding
+## 🛠️ Tech Stack (i2c JD ke mutabiq)
+- **Languages:** Python (Pandas), SQL (Joins, Aggregation)
+- **ETL & Pipeline:** CSV Extract -> Transform via Power Query -> Load into Model
+- **Data Warehouse:** Star Schema, Dimensional Modeling
+- **Visualization:** Power BI, DAX Measures, KPIs
+- **Tools:** Power BI, Excel, Git
 
-## Pipeline
-1. **Extract:** Loaded Orders.csv & Details.csv
-2. **Transform:** Handled nulls, created calculated columns, merged tables
-3. **Load & Model:** Built relationships, created DAX measures (Total Sales, Profit %)
-4. **Visualize:** Interactive dashboard with Filters by Product, Region, Time
+## 🔄 ETL Pipeline
+1. **Extract:** Orders.csv & Details.csv loaded
+2. **Transform:** Cleaned nulls, created Profit, Profit % columns, merged tables
+3. **Load:** Built relationships, Star Schema design
+4. **Analytics:** DAX Measures - Total Sales, Total Profit, Profit Margin %, MoM Growth
 
-## Key Insights
-- Top 5 selling products contributed to 60% revenue
-- Monthly sales trend & profit analysis
-- Customer segmentation
+## 📈 Dashboard Features
+- KPIs: Total Sales, Orders, Profit, Margin
+- Charts: Sales by Product, Region, Monthly Trend
+- Slicers: Date, Product Category, Region
 
-## Dashboard Preview
-[Add screenshot of your .pbix here]
+## 📁 Files
+- DELHI SWEETS.pbix - Main Dashboard
+- Orders.csv, Details.csv - Raw Data
 
-## Files
-- DELHI SWEETS.pbix - Main dashboard
-- Orders.csv, Details.csv - Raw data
+## Author
+Muhammad Abdullah - BS Data Science | KFUEIT
