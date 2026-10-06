@@ -5,7 +5,7 @@ End-to-end Business Analytics project showcasing ETL, Data Modeling, and Dashboa
 ## 📊 Project Overview
 Analyzed retail sales data for "Delhi Sweets" to uncover business insights, sales trends, and profitability. Built a complete pipeline from raw CSV to interactive dashboard.
 
-## 🛠️ Tech Stack (i2c JD ke mutabiq)
+## 🛠️ Tech Stack 
 - **Languages:** Python (Pandas), SQL (Joins, Aggregation)
 - **ETL & Pipeline:** CSV Extract -> Transform via Power Query -> Load into Model
 - **Data Warehouse:** Star Schema, Dimensional Modeling
